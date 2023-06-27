@@ -5,32 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body style="background-color: rgb(111, 250, 164)">
-    <h1>My portfolio</h1>
-    <p>
-      <a href="index.html">Home</a>
-      |
-      <a href="experience.html"> Experience</a>
-      |
-      <a href="contact.html"> Contact Me</a>
-    </p>
-    <img
-      src="image/IMG_0111.jpg"
-      hight="300"
-      width="150"
-      style="margin-left: auto; margin-right: auto; display: block"
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
     />
-    <h2>Theerapat Lumtan</h2>
-    <h3>My experience</h3>
-    <div class="skill-container">
-      <h3>My story</h3>
-      <p>เคยได้อันดับที่2ของการแข่งA-mathระดับจังหวัด ในช่วงมัธยมปลาย</p>
+  </head>
+
+  <body>
+    <div
+      class="d-flex justify-content-center gap-3 align-items-center p-2 px-4 bg-info text-white"
+    >
+      <a href="index.html" class="text-white d-none d-sm-block">Home</a>
+      |
+      <a href="experience.html" class="text-white d-none d-sm-block">
+        Experience</a
+      >
+      |
+      <a href="gallery.html" class="text-white d-none d-sm-block"> Gallery</a>
+      |
+      <a href="contact.html" class="text-white d-none d-sm-block"> Contact</a>
     </div>
 
-    <div class="skill-container">
-      <h3>My hobby</h3>
-      <p>ตอนนี้ชอบเล่นเกม ดูอนิเมะ และเที่ยวกับเพื่อนๆ</p>
+    <p class="text-center fs-3 my-2">Experience</p>
+    <div class="border rounded-2 p-2 mx-auto my-2" style="max-width: 700px">
+      <div class="d-flex gap-2 align-items-center">
+        <div>
+          <img
+            src="image/Profile2"
+            width="150px"
+            height="150px"
+            class="d-none d-sm-block"
+          />
+        </div>
+        <div>
+          <h3 class="my-4 ms-2">High School Life</h3>
+          <div class="text-muted">
+            ผมเคยแข่งA-mathระดับจังหวัดและได้รับรางวัลรองชนะเลิศอันดับที่1ในตอนมัธยมศึกษาปีที่4
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="border rounded-2 p-2 mx-auto my-2" style="max-width: 700px">
+      <div class="d-flex gap-2 align-items-center">
+        <div>
+          <h3 class="my-4 ms-2">University Life</h3>
+          <div class="text-muted">
+            ผมได้เข้ามาเรียนต่อที่มหาวิทยาลัยเชียงใหม่ คณะวิศวะกรรมศาสตร์
+            สาขาวิศวะกรรมคอมพิวเตอร์ในภากปกติ
+          </div>
+        </div>
+        <div>
+          <img
+            src="image/Profile3"
+            width="150px"
+            height="150px"
+            class="d-none d-sm-block"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="border rounded-2 p-2 mx-auto my-2" style="max-width: 700px">
+      <div class="d-flex gap-2 align-items-center">
+        <div>
+          <img
+            src="image/Dreampic.jpg"
+            width="150px"
+            height="150px"
+            class="d-none d-sm-block"
+          />
+        </div>
+        <div>
+          <h3 class="my-4 ms-2">My Dream</h3>
+          <div class="text-muted">
+            ผมอยากประกอบธุรกิจที่เกี่ยวกับงานทางด้านCoding
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
